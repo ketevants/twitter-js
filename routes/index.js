@@ -4,7 +4,7 @@ const router = express.Router(); // creates an instance of an express applicatio
 
 const tweetBank = require('../tweetBank');
 
-router.get("/stylesheets", function(req, res, next){
+router.get("/stylesheets/", function(req, res, next){
   res.send("css")
 })
 
